@@ -1,0 +1,51 @@
+.bannerSection{
+    background-color: #ffd700;
+    height: 300px;
+    position: relative;
+}
+.bannerSectionText{
+    text-align: center;
+    position: absolute;
+    width: 60%;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.bannerSectionText p{
+    text-align: justify;
+    font-family: Serif;
+    color: #696969;
+    font-size: 18px;
+    font-weight: 400px;
+}
+.bannerSectionText h1{
+    color: #262626;
+    font-weight: 500;
+    font-size: 50px;
+    font-family: serif;
+}
+
+@media (max-width: 568px) {
+    .bannerSectionText{
+        text-align: center;
+        position: absolute;
+        width: 100%;
+    }
+
+    .bannerSectionText p {
+        font-family: Serif;
+        color:#696969;
+        font-size: 16px;
+        font-weight: 400;
+        text-align: justify;
+        margin: auto;
+        width: 80%;
+    }
+    .bannerSectionText h1{
+        color: #262626;
+        font-weight: 500;
+        font-size: 26px;
+        font-family: serif;
+    }
+}
